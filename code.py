@@ -12,10 +12,10 @@ import time
 
 # varaibles
 blink_delay
-PIN_5 = 5
+
 
 # setup
-led = digitalio.DigitalInOut(PIN_5)
+led = digitalio.DigitalInOut(board.GP3)
 led.direction = digitalio.Direction.OUTPUT
 
 # loop
