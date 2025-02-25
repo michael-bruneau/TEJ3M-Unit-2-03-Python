@@ -14,6 +14,7 @@ import time
 blink_delay
 PIN_5 = 5
 
+# setup
 led = digitalio.DigitalInOut(PIN_5)
 led.direction = digitalio.Direction.OUTPUT
 
