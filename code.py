@@ -14,8 +14,6 @@ import busio
 # varaibles
 blink_delay = 1
 
-print("hello world")
-
 # setup
 led = digitalio.DigitalInOut(board.GP13)
 led.direction = digitalio.Direction.OUTPUT
